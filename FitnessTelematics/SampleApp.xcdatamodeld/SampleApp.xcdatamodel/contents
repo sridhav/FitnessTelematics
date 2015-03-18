@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="UTF-8" standalone="yes"?>
+<model userDefinedModelVersionIdentifier="" type="com.apple.IDECoreDataModeler.DataModel" documentVersion="1.0" lastSavedToolsVersion="6254" systemVersion="14C1510" minimumToolsVersion="Xcode 4.3" macOSVersion="Automatic" iOSVersion="Automatic">
+    <entity name="FitbitURL" syncable="YES"/>
+    <entity name="JawboneURL" syncable="YES"/>
+    <entity name="MisfitURL" syncable="YES"/>
+    <entity name="NikeURL" syncable="YES"/>
+    <entity name="OAuthKeys" representedClassName="OAuthKeys" syncable="YES">
+        <attribute name="key" optional="YES" attributeType="String" syncable="YES"/>
+        <attribute name="secret" optional="YES" attributeType="String" syncable="YES"/>
+    </entity>
+    <entity name="People" syncable="YES">
+        <attribute name="name" optional="YES" attributeType="String" syncable="YES"/>
+    </entity>
+    <entity name="WithingsURL" syncable="YES"/>
+    <elements>
+        <element name="FitbitURL" positionX="-63" positionY="-18" width="128" height="45"/>
+        <element name="MisfitURL" positionX="-54" positionY="-9" width="128" height="43"/>
+        <element name="WithingsURL" positionX="-36" positionY="9" width="128" height="43"/>
+        <element name="NikeURL" positionX="-18" positionY="18" width="128" height="45"/>
+        <element name="JawboneURL" positionX="0" positionY="36" width="128" height="45"/>
+        <element name="OAuthKeys" positionX="18" positionY="54" width="128" height="73"/>
+        <element name="People" positionX="36" positionY="90" width="128" height="60"/>
+    </elements>
+</model>

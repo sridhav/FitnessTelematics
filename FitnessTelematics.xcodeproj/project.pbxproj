@@ -1,0 +1,581 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		A5DD4B7D1AB90EA200446B86 /* FitnessTelematics.xcdatamodeld in Sources */ = {isa = PBXBuildFile; fileRef = A5DD4B7B1AB90EA200446B86 /* FitnessTelematics.xcdatamodeld */; };
+		A5DD4B841AB90EA200446B86 /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = A5DD4B831AB90EA200446B86 /* Images.xcassets */; };
+		A5DD4B871AB90EA200446B86 /* LaunchScreen.xib in Resources */ = {isa = PBXBuildFile; fileRef = A5DD4B851AB90EA200446B86 /* LaunchScreen.xib */; };
+		A5DD4B931AB90EA200446B86 /* FitnessTelematicsTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = A5DD4B921AB90EA200446B86 /* FitnessTelematicsTests.swift */; };
+		A5DD4BA01AB90F0900446B86 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = A5DD4B9F1AB90F0900446B86 /* AppDelegate.swift */; };
+		A5DD4BA21AB90F1D00446B86 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = A5DD4BA11AB90F1D00446B86 /* ViewController.swift */; };
+		A5DD4BB41AB90F3A00446B86 /* Dictionary+OAuthSwift.swift in Sources */ = {isa = PBXBuildFile; fileRef = A5DD4BA41AB90F3A00446B86 /* Dictionary+OAuthSwift.swift */; };
+		A5DD4BB51AB90F3A00446B86 /* HMAC.swift in Sources */ = {isa = PBXBuildFile; fileRef = A5DD4BA51AB90F3A00446B86 /* HMAC.swift */; };
+		A5DD4BB61AB90F3A00446B86 /* Info.plist in Resources */ = {isa = PBXBuildFile; fileRef = A5DD4BA61AB90F3A00446B86 /* Info.plist */; };
+		A5DD4BB71AB90F3A00446B86 /* Int+OAuthSwift.swift in Sources */ = {isa = PBXBuildFile; fileRef = A5DD4BA71AB90F3A00446B86 /* Int+OAuthSwift.swift */; };
+		A5DD4BB81AB90F3A00446B86 /* NSData+OAuthSwift.swift in Sources */ = {isa = PBXBuildFile; fileRef = A5DD4BA81AB90F3A00446B86 /* NSData+OAuthSwift.swift */; };
+		A5DD4BB91AB90F3A00446B86 /* NSURL+OAuthSwift.swift in Sources */ = {isa = PBXBuildFile; fileRef = A5DD4BA91AB90F3A00446B86 /* NSURL+OAuthSwift.swift */; };
+		A5DD4BBA1AB90F3A00446B86 /* OAuth1Swift.swift in Sources */ = {isa = PBXBuildFile; fileRef = A5DD4BAA1AB90F3A00446B86 /* OAuth1Swift.swift */; };
+		A5DD4BBB1AB90F3A00446B86 /* OAuth2Swift.swift in Sources */ = {isa = PBXBuildFile; fileRef = A5DD4BAB1AB90F3A00446B86 /* OAuth2Swift.swift */; };
+		A5DD4BBC1AB90F3A00446B86 /* OAuthSwiftClient.swift in Sources */ = {isa = PBXBuildFile; fileRef = A5DD4BAD1AB90F3A00446B86 /* OAuthSwiftClient.swift */; };
+		A5DD4BBD1AB90F3A00446B86 /* OAuthSwiftCredential.swift in Sources */ = {isa = PBXBuildFile; fileRef = A5DD4BAE1AB90F3A00446B86 /* OAuthSwiftCredential.swift */; };
+		A5DD4BBE1AB90F3A00446B86 /* OAuthSwiftHTTPRequest.swift in Sources */ = {isa = PBXBuildFile; fileRef = A5DD4BAF1AB90F3A00446B86 /* OAuthSwiftHTTPRequest.swift */; };
+		A5DD4BBF1AB90F3A00446B86 /* OAuthWebViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = A5DD4BB01AB90F3A00446B86 /* OAuthWebViewController.swift */; };
+		A5DD4BC01AB90F3A00446B86 /* SHA1.swift in Sources */ = {isa = PBXBuildFile; fileRef = A5DD4BB11AB90F3A00446B86 /* SHA1.swift */; };
+		A5DD4BC11AB90F3A00446B86 /* String+OAuthSwift.swift in Sources */ = {isa = PBXBuildFile; fileRef = A5DD4BB21AB90F3A00446B86 /* String+OAuthSwift.swift */; };
+		A5DD4BC21AB90F3A00446B86 /* Utils.swift in Sources */ = {isa = PBXBuildFile; fileRef = A5DD4BB31AB90F3A00446B86 /* Utils.swift */; };
+		A5DD4BCD1AB90F9600446B86 /* ActivityMeasure.swift in Sources */ = {isa = PBXBuildFile; fileRef = A5DD4BC41AB90F9600446B86 /* ActivityMeasure.swift */; };
+		A5DD4BCE1AB90F9600446B86 /* ActivityProtocol.swift in Sources */ = {isa = PBXBuildFile; fileRef = A5DD4BC51AB90F9600446B86 /* ActivityProtocol.swift */; };
+		A5DD4BCF1AB90F9600446B86 /* BodyLogProtocol.swift in Sources */ = {isa = PBXBuildFile; fileRef = A5DD4BC61AB90F9600446B86 /* BodyLogProtocol.swift */; };
+		A5DD4BD01AB90F9600446B86 /* FoodLogProtocol.swift in Sources */ = {isa = PBXBuildFile; fileRef = A5DD4BC71AB90F9600446B86 /* FoodLogProtocol.swift */; };
+		A5DD4BD11AB90F9600446B86 /* SampleApp.xcdatamodeld in Sources */ = {isa = PBXBuildFile; fileRef = A5DD4BC81AB90F9600446B86 /* SampleApp.xcdatamodeld */; };
+		A5DD4BD21AB90F9600446B86 /* SleepMeasure.swift in Sources */ = {isa = PBXBuildFile; fileRef = A5DD4BCA1AB90F9600446B86 /* SleepMeasure.swift */; };
+		A5DD4BD31AB90F9600446B86 /* SleepProtocol.swift in Sources */ = {isa = PBXBuildFile; fileRef = A5DD4BCB1AB90F9600446B86 /* SleepProtocol.swift */; };
+		A5DD4BD61AB90FBD00446B86 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = A5DD4BD51AB90FBD00446B86 /* Main.storyboard */; };
+		A5DD4BD81AB9108D00446B86 /* URLData.swift in Sources */ = {isa = PBXBuildFile; fileRef = A5DD4BD71AB9108D00446B86 /* URLData.swift */; };
+		A5DD4BDA1AB9109400446B86 /* SwiftyJSON.swift in Sources */ = {isa = PBXBuildFile; fileRef = A5DD4BD91AB9109400446B86 /* SwiftyJSON.swift */; };
+		A5DD4BDD1AB9112E00446B86 /* CoreData.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = A5DD4BDC1AB9112E00446B86 /* CoreData.framework */; };
+		A5DD4BDF1AB911BB00446B86 /* Constants.swift in Sources */ = {isa = PBXBuildFile; fileRef = A5DD4BDE1AB911BB00446B86 /* Constants.swift */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		A5DD4B8D1AB90EA200446B86 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = A5DD4B6C1AB90EA100446B86 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = A5DD4B731AB90EA200446B86;
+			remoteInfo = FitnessTelematics;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		A5DD4B741AB90EA200446B86 /* FitnessTelematics.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = FitnessTelematics.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		A5DD4B781AB90EA200446B86 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		A5DD4B7C1AB90EA200446B86 /* FitnessTelematics.xcdatamodel */ = {isa = PBXFileReference; lastKnownFileType = wrapper.xcdatamodel; path = FitnessTelematics.xcdatamodel; sourceTree = "<group>"; };
+		A5DD4B831AB90EA200446B86 /* Images.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Images.xcassets; sourceTree = "<group>"; };
+		A5DD4B861AB90EA200446B86 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.xib; name = Base; path = Base.lproj/LaunchScreen.xib; sourceTree = "<group>"; };
+		A5DD4B8C1AB90EA200446B86 /* FitnessTelematicsTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = FitnessTelematicsTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		A5DD4B911AB90EA200446B86 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		A5DD4B921AB90EA200446B86 /* FitnessTelematicsTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FitnessTelematicsTests.swift; sourceTree = "<group>"; };
+		A5DD4B9E1AB90F0900446B86 /* FitnessTelematics-Bridging-Header.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "FitnessTelematics-Bridging-Header.h"; sourceTree = "<group>"; };
+		A5DD4B9F1AB90F0900446B86 /* AppDelegate.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		A5DD4BA11AB90F1D00446B86 /* ViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
+		A5DD4BA41AB90F3A00446B86 /* Dictionary+OAuthSwift.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = "Dictionary+OAuthSwift.swift"; sourceTree = "<group>"; };
+		A5DD4BA51AB90F3A00446B86 /* HMAC.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = HMAC.swift; sourceTree = "<group>"; };
+		A5DD4BA61AB90F3A00446B86 /* Info.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		A5DD4BA71AB90F3A00446B86 /* Int+OAuthSwift.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = "Int+OAuthSwift.swift"; sourceTree = "<group>"; };
+		A5DD4BA81AB90F3A00446B86 /* NSData+OAuthSwift.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = "NSData+OAuthSwift.swift"; sourceTree = "<group>"; };
+		A5DD4BA91AB90F3A00446B86 /* NSURL+OAuthSwift.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = "NSURL+OAuthSwift.swift"; sourceTree = "<group>"; };
+		A5DD4BAA1AB90F3A00446B86 /* OAuth1Swift.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = OAuth1Swift.swift; sourceTree = "<group>"; };
+		A5DD4BAB1AB90F3A00446B86 /* OAuth2Swift.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = OAuth2Swift.swift; sourceTree = "<group>"; };
+		A5DD4BAC1AB90F3A00446B86 /* OAuthSwift.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = OAuthSwift.h; sourceTree = "<group>"; };
+		A5DD4BAD1AB90F3A00446B86 /* OAuthSwiftClient.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = OAuthSwiftClient.swift; sourceTree = "<group>"; };
+		A5DD4BAE1AB90F3A00446B86 /* OAuthSwiftCredential.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = OAuthSwiftCredential.swift; sourceTree = "<group>"; };
+		A5DD4BAF1AB90F3A00446B86 /* OAuthSwiftHTTPRequest.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = OAuthSwiftHTTPRequest.swift; sourceTree = "<group>"; };
+		A5DD4BB01AB90F3A00446B86 /* OAuthWebViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = OAuthWebViewController.swift; sourceTree = "<group>"; };
+		A5DD4BB11AB90F3A00446B86 /* SHA1.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = SHA1.swift; sourceTree = "<group>"; };
+		A5DD4BB21AB90F3A00446B86 /* String+OAuthSwift.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = "String+OAuthSwift.swift"; sourceTree = "<group>"; };
+		A5DD4BB31AB90F3A00446B86 /* Utils.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Utils.swift; sourceTree = "<group>"; };
+		A5DD4BC41AB90F9600446B86 /* ActivityMeasure.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ActivityMeasure.swift; sourceTree = "<group>"; };
+		A5DD4BC51AB90F9600446B86 /* ActivityProtocol.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ActivityProtocol.swift; sourceTree = "<group>"; };
+		A5DD4BC61AB90F9600446B86 /* BodyLogProtocol.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = BodyLogProtocol.swift; sourceTree = "<group>"; };
+		A5DD4BC71AB90F9600446B86 /* FoodLogProtocol.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = FoodLogProtocol.swift; sourceTree = "<group>"; };
+		A5DD4BC91AB90F9600446B86 /* SampleApp.xcdatamodel */ = {isa = PBXFileReference; lastKnownFileType = wrapper.xcdatamodel; path = SampleApp.xcdatamodel; sourceTree = "<group>"; };
+		A5DD4BCA1AB90F9600446B86 /* SleepMeasure.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = SleepMeasure.swift; sourceTree = "<group>"; };
+		A5DD4BCB1AB90F9600446B86 /* SleepProtocol.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = SleepProtocol.swift; sourceTree = "<group>"; };
+		A5DD4BD51AB90FBD00446B86 /* Main.storyboard */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.storyboard; path = Main.storyboard; sourceTree = "<group>"; };
+		A5DD4BD71AB9108D00446B86 /* URLData.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = URLData.swift; sourceTree = "<group>"; };
+		A5DD4BD91AB9109400446B86 /* SwiftyJSON.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = SwiftyJSON.swift; sourceTree = "<group>"; };
+		A5DD4BDC1AB9112E00446B86 /* CoreData.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreData.framework; path = System/Library/Frameworks/CoreData.framework; sourceTree = SDKROOT; };
+		A5DD4BDE1AB911BB00446B86 /* Constants.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Constants.swift; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		A5DD4B711AB90EA200446B86 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				A5DD4BDD1AB9112E00446B86 /* CoreData.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		A5DD4B891AB90EA200446B86 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		A5DD4B6B1AB90EA100446B86 = {
+			isa = PBXGroup;
+			children = (
+				A5DD4BDC1AB9112E00446B86 /* CoreData.framework */,
+				A5DD4BDB1AB9109F00446B86 /* URLData */,
+				A5DD4BC31AB90F7400446B86 /* FitnessActivities */,
+				A5DD4BA31AB90F3A00446B86 /* OAuthSwift */,
+				A5DD4B761AB90EA200446B86 /* FitnessTelematics */,
+				A5DD4B8F1AB90EA200446B86 /* FitnessTelematicsTests */,
+				A5DD4B751AB90EA200446B86 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		A5DD4B751AB90EA200446B86 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				A5DD4B741AB90EA200446B86 /* FitnessTelematics.app */,
+				A5DD4B8C1AB90EA200446B86 /* FitnessTelematicsTests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		A5DD4B761AB90EA200446B86 /* FitnessTelematics */ = {
+			isa = PBXGroup;
+			children = (
+				A5DD4BA11AB90F1D00446B86 /* ViewController.swift */,
+				A5DD4B9F1AB90F0900446B86 /* AppDelegate.swift */,
+				A5DD4B831AB90EA200446B86 /* Images.xcassets */,
+				A5DD4BD51AB90FBD00446B86 /* Main.storyboard */,
+				A5DD4B851AB90EA200446B86 /* LaunchScreen.xib */,
+				A5DD4B7B1AB90EA200446B86 /* FitnessTelematics.xcdatamodeld */,
+				A5DD4B771AB90EA200446B86 /* Supporting Files */,
+				A5DD4B9E1AB90F0900446B86 /* FitnessTelematics-Bridging-Header.h */,
+			);
+			path = FitnessTelematics;
+			sourceTree = "<group>";
+		};
+		A5DD4B771AB90EA200446B86 /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				A5DD4B781AB90EA200446B86 /* Info.plist */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		A5DD4B8F1AB90EA200446B86 /* FitnessTelematicsTests */ = {
+			isa = PBXGroup;
+			children = (
+				A5DD4B921AB90EA200446B86 /* FitnessTelematicsTests.swift */,
+				A5DD4B901AB90EA200446B86 /* Supporting Files */,
+			);
+			path = FitnessTelematicsTests;
+			sourceTree = "<group>";
+		};
+		A5DD4B901AB90EA200446B86 /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				A5DD4B911AB90EA200446B86 /* Info.plist */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		A5DD4BA31AB90F3A00446B86 /* OAuthSwift */ = {
+			isa = PBXGroup;
+			children = (
+				A5DD4BDE1AB911BB00446B86 /* Constants.swift */,
+				A5DD4BA41AB90F3A00446B86 /* Dictionary+OAuthSwift.swift */,
+				A5DD4BA51AB90F3A00446B86 /* HMAC.swift */,
+				A5DD4BA61AB90F3A00446B86 /* Info.plist */,
+				A5DD4BA71AB90F3A00446B86 /* Int+OAuthSwift.swift */,
+				A5DD4BA81AB90F3A00446B86 /* NSData+OAuthSwift.swift */,
+				A5DD4BA91AB90F3A00446B86 /* NSURL+OAuthSwift.swift */,
+				A5DD4BAA1AB90F3A00446B86 /* OAuth1Swift.swift */,
+				A5DD4BAB1AB90F3A00446B86 /* OAuth2Swift.swift */,
+				A5DD4BAC1AB90F3A00446B86 /* OAuthSwift.h */,
+				A5DD4BAD1AB90F3A00446B86 /* OAuthSwiftClient.swift */,
+				A5DD4BAE1AB90F3A00446B86 /* OAuthSwiftCredential.swift */,
+				A5DD4BAF1AB90F3A00446B86 /* OAuthSwiftHTTPRequest.swift */,
+				A5DD4BB01AB90F3A00446B86 /* OAuthWebViewController.swift */,
+				A5DD4BB11AB90F3A00446B86 /* SHA1.swift */,
+				A5DD4BB21AB90F3A00446B86 /* String+OAuthSwift.swift */,
+				A5DD4BB31AB90F3A00446B86 /* Utils.swift */,
+			);
+			path = OAuthSwift;
+			sourceTree = "<group>";
+		};
+		A5DD4BC31AB90F7400446B86 /* FitnessActivities */ = {
+			isa = PBXGroup;
+			children = (
+				A5DD4BC41AB90F9600446B86 /* ActivityMeasure.swift */,
+				A5DD4BC51AB90F9600446B86 /* ActivityProtocol.swift */,
+				A5DD4BC61AB90F9600446B86 /* BodyLogProtocol.swift */,
+				A5DD4BC71AB90F9600446B86 /* FoodLogProtocol.swift */,
+				A5DD4BC81AB90F9600446B86 /* SampleApp.xcdatamodeld */,
+				A5DD4BCA1AB90F9600446B86 /* SleepMeasure.swift */,
+				A5DD4BCB1AB90F9600446B86 /* SleepProtocol.swift */,
+			);
+			name = FitnessActivities;
+			path = FitnessTelematics;
+			sourceTree = "<group>";
+		};
+		A5DD4BDB1AB9109F00446B86 /* URLData */ = {
+			isa = PBXGroup;
+			children = (
+				A5DD4BD71AB9108D00446B86 /* URLData.swift */,
+				A5DD4BD91AB9109400446B86 /* SwiftyJSON.swift */,
+			);
+			name = URLData;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		A5DD4B731AB90EA200446B86 /* FitnessTelematics */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = A5DD4B961AB90EA200446B86 /* Build configuration list for PBXNativeTarget "FitnessTelematics" */;
+			buildPhases = (
+				A5DD4B701AB90EA200446B86 /* Sources */,
+				A5DD4B711AB90EA200446B86 /* Frameworks */,
+				A5DD4B721AB90EA200446B86 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = FitnessTelematics;
+			productName = FitnessTelematics;
+			productReference = A5DD4B741AB90EA200446B86 /* FitnessTelematics.app */;
+			productType = "com.apple.product-type.application";
+		};
+		A5DD4B8B1AB90EA200446B86 /* FitnessTelematicsTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = A5DD4B991AB90EA200446B86 /* Build configuration list for PBXNativeTarget "FitnessTelematicsTests" */;
+			buildPhases = (
+				A5DD4B881AB90EA200446B86 /* Sources */,
+				A5DD4B891AB90EA200446B86 /* Frameworks */,
+				A5DD4B8A1AB90EA200446B86 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				A5DD4B8E1AB90EA200446B86 /* PBXTargetDependency */,
+			);
+			name = FitnessTelematicsTests;
+			productName = FitnessTelematicsTests;
+			productReference = A5DD4B8C1AB90EA200446B86 /* FitnessTelematicsTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		A5DD4B6C1AB90EA100446B86 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 0610;
+				ORGANIZATIONNAME = "Sridhar Vemula";
+				TargetAttributes = {
+					A5DD4B731AB90EA200446B86 = {
+						CreatedOnToolsVersion = 6.1.1;
+					};
+					A5DD4B8B1AB90EA200446B86 = {
+						CreatedOnToolsVersion = 6.1.1;
+						TestTargetID = A5DD4B731AB90EA200446B86;
+					};
+				};
+			};
+			buildConfigurationList = A5DD4B6F1AB90EA100446B86 /* Build configuration list for PBXProject "FitnessTelematics" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = A5DD4B6B1AB90EA100446B86;
+			productRefGroup = A5DD4B751AB90EA200446B86 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				A5DD4B731AB90EA200446B86 /* FitnessTelematics */,
+				A5DD4B8B1AB90EA200446B86 /* FitnessTelematicsTests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		A5DD4B721AB90EA200446B86 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				A5DD4B871AB90EA200446B86 /* LaunchScreen.xib in Resources */,
+				A5DD4B841AB90EA200446B86 /* Images.xcassets in Resources */,
+				A5DD4BB61AB90F3A00446B86 /* Info.plist in Resources */,
+				A5DD4BD61AB90FBD00446B86 /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		A5DD4B8A1AB90EA200446B86 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		A5DD4B701AB90EA200446B86 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				A5DD4BBB1AB90F3A00446B86 /* OAuth2Swift.swift in Sources */,
+				A5DD4BD31AB90F9600446B86 /* SleepProtocol.swift in Sources */,
+				A5DD4BBE1AB90F3A00446B86 /* OAuthSwiftHTTPRequest.swift in Sources */,
+				A5DD4BCF1AB90F9600446B86 /* BodyLogProtocol.swift in Sources */,
+				A5DD4BC11AB90F3A00446B86 /* String+OAuthSwift.swift in Sources */,
+				A5DD4BA21AB90F1D00446B86 /* ViewController.swift in Sources */,
+				A5DD4BD21AB90F9600446B86 /* SleepMeasure.swift in Sources */,
+				A5DD4BB51AB90F3A00446B86 /* HMAC.swift in Sources */,
+				A5DD4BB41AB90F3A00446B86 /* Dictionary+OAuthSwift.swift in Sources */,
+				A5DD4BC01AB90F3A00446B86 /* SHA1.swift in Sources */,
+				A5DD4BB71AB90F3A00446B86 /* Int+OAuthSwift.swift in Sources */,
+				A5DD4BA01AB90F0900446B86 /* AppDelegate.swift in Sources */,
+				A5DD4BD01AB90F9600446B86 /* FoodLogProtocol.swift in Sources */,
+				A5DD4BC21AB90F3A00446B86 /* Utils.swift in Sources */,
+				A5DD4BDA1AB9109400446B86 /* SwiftyJSON.swift in Sources */,
+				A5DD4BBC1AB90F3A00446B86 /* OAuthSwiftClient.swift in Sources */,
+				A5DD4BCE1AB90F9600446B86 /* ActivityProtocol.swift in Sources */,
+				A5DD4BD81AB9108D00446B86 /* URLData.swift in Sources */,
+				A5DD4BB81AB90F3A00446B86 /* NSData+OAuthSwift.swift in Sources */,
+				A5DD4BB91AB90F3A00446B86 /* NSURL+OAuthSwift.swift in Sources */,
+				A5DD4BBA1AB90F3A00446B86 /* OAuth1Swift.swift in Sources */,
+				A5DD4BD11AB90F9600446B86 /* SampleApp.xcdatamodeld in Sources */,
+				A5DD4BBD1AB90F3A00446B86 /* OAuthSwiftCredential.swift in Sources */,
+				A5DD4BCD1AB90F9600446B86 /* ActivityMeasure.swift in Sources */,
+				A5DD4B7D1AB90EA200446B86 /* FitnessTelematics.xcdatamodeld in Sources */,
+				A5DD4BBF1AB90F3A00446B86 /* OAuthWebViewController.swift in Sources */,
+				A5DD4BDF1AB911BB00446B86 /* Constants.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		A5DD4B881AB90EA200446B86 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				A5DD4B931AB90EA200446B86 /* FitnessTelematicsTests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		A5DD4B8E1AB90EA200446B86 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = A5DD4B731AB90EA200446B86 /* FitnessTelematics */;
+			targetProxy = A5DD4B8D1AB90EA200446B86 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		A5DD4B851AB90EA200446B86 /* LaunchScreen.xib */ = {
+			isa = PBXVariantGroup;
+			children = (
+				A5DD4B861AB90EA200446B86 /* Base */,
+			);
+			name = LaunchScreen.xib;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		A5DD4B941AB90EA200446B86 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 8.1;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		A5DD4B951AB90EA200446B86 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = YES;
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 8.1;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		A5DD4B971AB90EA200446B86 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CLANG_ENABLE_MODULES = YES;
+				INFOPLIST_FILE = FitnessTelematics/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_OBJC_BRIDGING_HEADER = "FitnessTelematics/FitnessTelematics-Bridging-Header.h";
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		A5DD4B981AB90EA200446B86 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CLANG_ENABLE_MODULES = YES;
+				INFOPLIST_FILE = FitnessTelematics/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_OBJC_BRIDGING_HEADER = "FitnessTelematics/FitnessTelematics-Bridging-Header.h";
+			};
+			name = Release;
+		};
+		A5DD4B9A1AB90EA200446B86 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(SDKROOT)/Developer/Library/Frameworks",
+					"$(inherited)",
+				);
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				INFOPLIST_FILE = FitnessTelematicsTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/FitnessTelematics.app/FitnessTelematics";
+			};
+			name = Debug;
+		};
+		A5DD4B9B1AB90EA200446B86 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(SDKROOT)/Developer/Library/Frameworks",
+					"$(inherited)",
+				);
+				INFOPLIST_FILE = FitnessTelematicsTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/FitnessTelematics.app/FitnessTelematics";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		A5DD4B6F1AB90EA100446B86 /* Build configuration list for PBXProject "FitnessTelematics" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				A5DD4B941AB90EA200446B86 /* Debug */,
+				A5DD4B951AB90EA200446B86 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		A5DD4B961AB90EA200446B86 /* Build configuration list for PBXNativeTarget "FitnessTelematics" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				A5DD4B971AB90EA200446B86 /* Debug */,
+				A5DD4B981AB90EA200446B86 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		A5DD4B991AB90EA200446B86 /* Build configuration list for PBXNativeTarget "FitnessTelematicsTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				A5DD4B9A1AB90EA200446B86 /* Debug */,
+				A5DD4B9B1AB90EA200446B86 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+
+/* Begin XCVersionGroup section */
+		A5DD4B7B1AB90EA200446B86 /* FitnessTelematics.xcdatamodeld */ = {
+			isa = XCVersionGroup;
+			children = (
+				A5DD4B7C1AB90EA200446B86 /* FitnessTelematics.xcdatamodel */,
+			);
+			currentVersion = A5DD4B7C1AB90EA200446B86 /* FitnessTelematics.xcdatamodel */;
+			path = FitnessTelematics.xcdatamodeld;
+			sourceTree = "<group>";
+			versionGroupType = wrapper.xcdatamodel;
+		};
+		A5DD4BC81AB90F9600446B86 /* SampleApp.xcdatamodeld */ = {
+			isa = XCVersionGroup;
+			children = (
+				A5DD4BC91AB90F9600446B86 /* SampleApp.xcdatamodel */,
+			);
+			currentVersion = A5DD4BC91AB90F9600446B86 /* SampleApp.xcdatamodel */;
+			path = SampleApp.xcdatamodeld;
+			sourceTree = "<group>";
+			versionGroupType = wrapper.xcdatamodel;
+		};
+/* End XCVersionGroup section */
+	};
+	rootObject = A5DD4B6C1AB90EA100446B86 /* Project object */;
+}
